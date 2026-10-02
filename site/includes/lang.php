@@ -90,6 +90,7 @@ return [
             ['Зачем доступ «Универсальный доступ»?', 'Без него macOS не разрешает программе нажимать кнопки в окнах других приложений — в нашем случае в палитре Logic.'],
         ],
 
+        'github_link' => 'Открытый исходный код на GitHub',
         'developer' => 'Разработчик',
         'footer_note' => 'Logic Pro — товарный знак Apple Inc. Проект не связан с Apple.',
     ],
@@ -175,6 +176,7 @@ return [
             ['Why does it need Accessibility access?', 'Without it macOS doesn\'t allow an app to press buttons in other apps\' windows — in this case, Logic\'s palette.'],
         ],
 
+        'github_link' => 'Open source on GitHub',
         'developer' => 'Developer',
         'footer_note' => 'Logic Pro is a trademark of Apple Inc. This project is not affiliated with Apple.',
     ],
