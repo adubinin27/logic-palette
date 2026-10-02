@@ -4,7 +4,7 @@
 
 ![Logic Palette рядом со штатным окном Color](site/assets/img/hero.jpg)
 
-[English below](#english)
+**[Сайт](https://stm-project.ru/logic-palette-site/) · [Скачать](https://github.com/adubinin27/logic-palette/releases/latest) · [English below](#english)**
 
 ## Возможности
 
@@ -97,6 +97,8 @@ Logic Pro — товарный знак Apple Inc. Проект не связа�
 ---
 
 ## English
+
+**[Website](https://stm-project.ru/logic-palette-site/?lang=en) · [Download](https://github.com/adubinin27/logic-palette/releases/latest)**
 
 **Logic Palette** is a free, compact color palette for Logic Pro: a small floating panel with the same 96 colors as Logic's Color window, without covering your tracks and toolbar.
 
