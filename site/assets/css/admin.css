@@ -1,0 +1,54 @@
+/* Logic Palette admin · @author STM Webcode Systems (stm-project.ru) */
+
+.admin .header__inner { justify-content: space-between; }
+.admin__logout { margin: 0; }
+.admin__actions { display: flex; align-items: center; gap: 12px; }
+.admin__logout button { background: none; cursor: pointer; font-family: inherit; }
+.admin__main { padding: 32px 0 60px; }
+.admin h1 { font-size: 28px; }
+.admin h2 { font-size: 18px; margin-bottom: 14px; }
+.admin .panel { position: static; margin-top: 20px; }
+
+.admin__login { max-width: 380px; margin: 60px auto 0; display: grid; gap: 14px; }
+.admin label { display: grid; gap: 6px; font-size: 14px; color: var(--muted); }
+.admin input[type="text"], .admin input:not([type]), .admin input[type="password"], .admin input[type="number"] {
+  font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--border);
+  border-radius: 10px; padding: 10px 12px; outline: none;
+}
+.admin input:focus { border-color: #4c81cd; }
+.admin button.btn { cursor: pointer; font-family: inherit; }
+.admin__error, .admin__flash { margin: 0 0 16px; padding: 10px 14px; border-radius: 10px; font-size: 14px; }
+.admin__error { background: rgba(185, 70, 36, .15); border: 1px solid rgba(185, 70, 36, .5); color: #f0a48c; }
+.admin__flash { background: rgba(122, 198, 62, .12); border: 1px solid rgba(122, 198, 62, .45); color: #b9e59a; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+.stat {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px 18px; display: grid; gap: 2px;
+}
+.stat b { font-family: var(--font-display); font-size: 26px; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: 13px; }
+
+.chart { width: 100%; height: 160px; display: block; }
+.chart__bar { fill: #4c81cd; }
+.chart__bar:hover { fill: #60c6c8; }
+.chart__empty { fill: var(--border); }
+.chart__axis { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; margin-top: 6px; }
+
+.admin__form { display: flex; flex-wrap: wrap; align-items: end; gap: 16px 24px; margin-top: 14px; }
+.admin__form input[type="number"] { width: 180px; }
+.admin__check { display: flex !important; align-items: center; gap: 8px; color: var(--text) !important; padding-bottom: 12px; }
+.admin__check input { width: 18px; height: 18px; accent-color: #7ac63e; }
+.admin__public { color: #7ac63e; font-size: 18px; }
+
+.admin__cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0 20px; }
+.table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.table th { text-align: left; color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+.table th, .table td { padding: 8px 10px 8px 0; border-bottom: 1px solid var(--border); vertical-align: top; }
+.table tr:last-child td { border-bottom: 0; }
+.table td:last-child { text-align: right; padding-right: 0; }
+.table--log td:last-child { text-align: left; }
+.table__scroll { overflow-x: auto; }
+.table--log { min-width: 760px; }
+.table__ua { color: var(--muted); }
+.admin code { font-family: var(--mono); font-size: 12px; }

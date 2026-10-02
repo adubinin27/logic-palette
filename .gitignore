@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Secrets — never commit
+.env
+*.pem
+*.p12
+LogicPalette/signing/
+
+# Build output; installers are published via GitHub Releases
+LogicPalette/build/
+*.pkg
+*.dmg
+
+# Local backups
+*.zip
+
+# Site runtime data (stats DB, rate limits, editor uploads)
+site/data/*
+!site/data/.htaccess
+site/assets/img/uploads/
+
+# Working files in the project root
+/*.jpg
+/*.png
+/*.md
+!/README.md
